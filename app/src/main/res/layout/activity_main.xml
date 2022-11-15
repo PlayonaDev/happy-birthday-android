@@ -6,16 +6,27 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image_happy"
+
+        />
+
     <TextView
         android:id="@+id/happy_birthday"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Happy Birthday!"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:fontFamily="sans-serif-black"
-        android:textColor="@color/black"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/white"
 
          />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
